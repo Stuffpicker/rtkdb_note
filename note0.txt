@@ -1,0 +1,1 @@
+r.db('request_headers').table('req_headers').getField("id").forEach(_=>r.db('request_headers').table('req_headers').get(_).delete())
